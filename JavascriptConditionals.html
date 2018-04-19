@@ -13,24 +13,7 @@
 	
     <body>
 	
-	<script>
-	
-	var choice = prompt("Which do you choose? 1, 2, or 3?");
-	
-	// write your code here
-	
-	if (choice == "1") {
-	document.write("You Chose Bubasaur");
-	}
-	else if (choice == "2")  {
-	document.write("You Chose Squirtle");
-	}
-	else if (choice == "3") {
-	document.write("You Chose Charmander");
-	document.getElementById("out").innerHTML = "You Chose Charmander";
-	}
-	
-	</script>
+
 	
 	<h1> CHOOSE YOUR STARTER </h1>
         <div>
@@ -40,7 +23,24 @@
 		</div>
 	<br />
 	
-	<H3 id="out"></H3>
+	<h3 id="out"></h3>
+	
+	<script>
+	
+	var choice = prompt("Which do you choose? 1, 2, or 3?");
+	
+	if (choice == "1") {
+	document.getElementById("out").innerHTML = "You Chose Bubasaur";
+	}
+	else if (choice == "2")  {
+	document.getElementById("out").innerHTML = "You Chose Squirtle";
+	}
+	else if (choice == "3") {
+	document.getElementById("out").innerHTML = "You Chose Charmander";
+	}
+	
+	</script>
 	
     </body>
+	
 </html>
