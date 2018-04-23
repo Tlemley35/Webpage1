@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+
+
+</head>
+
+<body>
+
+<h1>Palindrome Checker</h1>
+
+<script>
+
+	var word = prompt('Type something');
+	
+	var wordSplit = word.split("");
+	var wordRev = wordSplit.reverse();
+	var newWord = wordRev.join("");
+	
+	if (newWord == word) {
+		document.write(newWord.fontcolor("blue") + "<br/>");
+	}
+	else document.write(newWord + "<br/>");
+	
+	document.write("This word has " + wordSplit.length + " characters.<br/>");
+	
+</script>
+
+</body>
+
+</html>
