@@ -1,0 +1,45 @@
+body {	background-color: slateblue;
+		background-position: center; 
+		background-size: 100% 100%;
+		width: 1000px;
+		height:90%;
+}
+		
+nav { 	font-weight: bold;
+		padding: 10px; 
+		border-width: 5px;
+		border-style: inset;
+}
+
+h1 { text-align: center;
+	border-width: 5px;
+	border-style: inset; }
+
+#leftcolumn { 	width: 200px;
+				float; left; 
+}
+
+#rightcolumn { 	width: 600px;
+				float: right;
+}
+			
+#content { 	padding-left: 0px;
+			padding-right: 0px;
+}
+			
+nav a:link { color: black 
+}
+
+nav a:visited  { color: white 
+}
+
+nav a:hover { color: grey 
+}
+
+#border { 	border-width: 4px;
+			border-style: inset;
+			text-align: center; }
+			
+img { border-width: 5px;
+		border-style: outset; 
+		border-color: red;}
